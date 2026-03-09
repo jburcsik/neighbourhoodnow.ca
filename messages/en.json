@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "insights": "Insights",
+    "contact": "Contact",
+    "requestBriefing": "Request a Briefing"
+  },
+  "footer": {
+    "tagline": "Strategic innovation. Community impact. Measurable results.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {year} Neighbourhood Now Inc. All rights reserved.",
+    "jurisdictions": "Serving clients across Canada, the United States, and internationally."
+  },
+  "hero": {
+    "eyebrow": "Trusted by Governments & Enterprise",
+    "headline": "Where Strategy Meets Community. At Scale.",
+    "subheadline": "Neighbourhood Now delivers evidence-based consulting, AI readiness frameworks, and agile transformation programs that create lasting organizational and community impact.",
+    "ctaPrimary": "Request a Briefing",
+    "ctaSecondary": "View Our Work"
+  },
+  "services": {
+    "sectionLabel": "Our Services",
+    "headline": "End-to-End Capacity Building for Complex Environments",
+    "aiReadiness": {
+      "title": "AI Readiness & Strategy",
+      "description": "Structured assessment frameworks and implementation roadmaps that position your organization to leverage artificial intelligence with confidence and governance rigor."
+    },
+    "automation": {
+      "title": "Process Automation & Digital Transformation",
+      "description": "Systematic analysis and re-engineering of operational workflows, delivering measurable efficiency gains and scalable digital infrastructure."
+    },
+    "agile": {
+      "title": "Agile Transformation & Coaching",
+      "description": "Practitioner-led coaching programs that embed adaptive delivery capabilities across teams, portfolios, and enterprise functions."
+    },
+    "civic": {
+      "title": "Civic Technology Consulting",
+      "description": "Strategic advisory for municipalities, provinces, and crown corporations navigating the intersection of technology, policy, and community engagement."
+    },
+    "leadership": {
+      "title": "Leadership Development & Team Tuning",
+      "description": "High-impact facilitation and coaching engagements that develop cross-functional leadership capability and unlock organizational performance."
+    },
+    "grant": {
+      "title": "Grant Strategy & Stakeholder Engagement",
+      "description": "Comprehensive support for funding applications, stakeholder alignment, and community consultation processes that satisfy regulatory and funder requirements."
+    }
+  },
+  "stats": {
+    "sectionLabel": "Our Impact",
+    "headline": "Delivering Outcomes That Move the Needle",
+    "funding": "$47M+",
+    "fundingLabel": "In Secured Funding",
+    "engagements": "200+",
+    "engagementsLabel": "Engagements Delivered",
+    "jurisdictions": "12",
+    "jurisdictionsLabel": "Jurisdictions Served",
+    "retention": "94%",
+    "retentionLabel": "Client Retention Rate"
+  },
+  "team": {
+    "sectionLabel": "Leadership",
+    "headline": "Practitioners Who Have Done the Work",
+    "subheadline": "Our leadership team brings together decades of cross-sector experience in technology, public policy, organizational design, and community development."
+  },
+  "caseStudies": {
+    "sectionLabel": "Case Studies",
+    "headline": "Proven Results Across Sectors",
+    "viewAll": "View All Case Studies",
+    "readMore": "Read Case Study"
+  },
+  "cta": {
+    "headline": "Ready to Transform Your Organization?",
+    "subheadline": "Whether you are pursuing a strategic mandate, a funding opportunity, or an organizational transformation, we bring the expertise to deliver.",
+    "primary": "Request a Briefing",
+    "secondary": "Download Capabilities Deck"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "fr": "Français",
+    "zh": "中文"
+  }
+}

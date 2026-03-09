@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "caseStudies": "Études de cas",
+    "insights": "Publications",
+    "contact": "Contact",
+    "requestBriefing": "Demander un entretien"
+  },
+  "footer": {
+    "tagline": "Innovation stratégique. Impact communautaire. Résultats mesurables.",
+    "services": "Services",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyright": "© {year} Neighbourhood Now Inc. Tous droits réservés.",
+    "jurisdictions": "Nous servons des clients partout au Canada, aux États-Unis et à l'international."
+  },
+  "hero": {
+    "eyebrow": "Approuvé par les gouvernements et les entreprises",
+    "headline": "Là où la stratégie rencontre la communauté. À grande échelle.",
+    "subheadline": "Neighbourhood Now offre des services-conseils fondés sur des données probantes, des cadres de préparation à l'IA et des programmes de transformation agile qui créent un impact durable.",
+    "ctaPrimary": "Demander un entretien",
+    "ctaSecondary": "Voir nos travaux"
+  },
+  "services": {
+    "sectionLabel": "Nos services",
+    "headline": "Renforcement des capacités de bout en bout pour les environnements complexes",
+    "aiReadiness": {
+      "title": "Préparation à l'IA et stratégie",
+      "description": "Cadres d'évaluation structurés et feuilles de route de mise en œuvre pour positionner votre organisation afin d'exploiter l'intelligence artificielle avec confiance et rigueur de gouvernance."
+    },
+    "automation": {
+      "title": "Automatisation des processus et transformation numérique",
+      "description": "Analyse systématique et réingénierie des flux de travail opérationnels, offrant des gains d'efficacité mesurables et une infrastructure numérique évolutive."
+    },
+    "agile": {
+      "title": "Transformation agile et coaching",
+      "description": "Programmes de coaching dirigés par des praticiens qui intègrent des capacités de livraison adaptatives à travers les équipes, les portefeuilles et les fonctions d'entreprise."
+    },
+    "civic": {
+      "title": "Conseil en technologie civique",
+      "description": "Conseil stratégique pour les municipalités, les provinces et les sociétés d'État naviguant à l'intersection de la technologie, des politiques et de l'engagement communautaire."
+    },
+    "leadership": {
+      "title": "Développement du leadership et optimisation des équipes",
+      "description": "Des engagements de facilitation et de coaching à fort impact qui développent les capacités de leadership interfonctionnel et libèrent la performance organisationnelle."
+    },
+    "grant": {
+      "title": "Stratégie de subventions et engagement des parties prenantes",
+      "description": "Soutien complet pour les demandes de financement, l'alignement des parties prenantes et les processus de consultation communautaire répondant aux exigences réglementaires."
+    }
+  },
+  "stats": {
+    "sectionLabel": "Notre impact",
+    "headline": "Des résultats qui font avancer les choses",
+    "funding": "47 M$+",
+    "fundingLabel": "En financement obtenu",
+    "engagements": "200+",
+    "engagementsLabel": "Mandats livrés",
+    "jurisdictions": "12",
+    "jurisdictionsLabel": "Juridictions desservies",
+    "retention": "94 %",
+    "retentionLabel": "Taux de rétention des clients"
+  },
+  "team": {
+    "sectionLabel": "Direction",
+    "headline": "Des praticiens qui ont fait leurs preuves",
+    "subheadline": "Notre équipe de direction réunit des décennies d'expérience intersectorielle en technologie, politiques publiques, conception organisationnelle et développement communautaire."
+  },
+  "caseStudies": {
+    "sectionLabel": "Études de cas",
+    "headline": "Des résultats éprouvés dans tous les secteurs",
+    "viewAll": "Voir toutes les études de cas",
+    "readMore": "Lire l'étude de cas"
+  },
+  "cta": {
+    "headline": "Prêt à transformer votre organisation?",
+    "subheadline": "Que vous poursuiviez un mandat stratégique, une opportunité de financement ou une transformation organisationnelle, nous apportons l'expertise pour livrer.",
+    "primary": "Demander un entretien",
+    "secondary": "Télécharger le document de capacités"
+  },
+  "localeSwitcher": {
+    "label": "Langue",
+    "en": "English",
+    "fr": "Français",
+    "zh": "中文"
+  }
+}

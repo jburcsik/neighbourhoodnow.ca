@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "关于我们",
+    "services": "服务",
+    "caseStudies": "案例研究",
+    "insights": "洞察",
+    "contact": "联系我们",
+    "requestBriefing": "预约咨询"
+  },
+  "footer": {
+    "tagline": "战略创新。社区影响。可量化的成果。",
+    "services": "服务",
+    "company": "公司",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "© {year} Neighbourhood Now Inc. 版权所有。",
+    "jurisdictions": "为加拿大、美国及国际客户提供服务。"
+  },
+  "hero": {
+    "eyebrow": "获得政府与企业信赖",
+    "headline": "战略与社区的交汇点。大规模落地。",
+    "subheadline": "Neighbourhood Now 提供基于实证的咨询服务、人工智能准备框架及敏捷转型项目，创造持久的组织与社区影响力。",
+    "ctaPrimary": "预约咨询",
+    "ctaSecondary": "查看我们的工作"
+  },
+  "services": {
+    "sectionLabel": "我们的服务",
+    "headline": "面向复杂环境的端到端能力建设",
+    "aiReadiness": {
+      "title": "AI准备评估与战略",
+      "description": "结构化评估框架与实施路线图，助力贵组织以信心和治理严谨性充分利用人工智能技术。"
+    },
+    "automation": {
+      "title": "流程自动化与数字化转型",
+      "description": "对运营工作流程进行系统分析与重新设计，实现可量化的效率提升与可扩展的数字基础设施。"
+    },
+    "agile": {
+      "title": "敏捷转型与辅导",
+      "description": "由实践者主导的辅导项目，在团队、项目组合和企业职能层面嵌入自适应交付能力。"
+    },
+    "civic": {
+      "title": "市政技术咨询",
+      "description": "为城市、省级政府和国有企业提供战略建议，助其驾驭技术、政策与社区参与的交汇地带。"
+    },
+    "leadership": {
+      "title": "领导力发展与团队调优",
+      "description": "高影响力的引导与辅导项目，培养跨职能领导力，释放组织绩效潜能。"
+    },
+    "grant": {
+      "title": "资助策略与利益相关方参与",
+      "description": "为资金申请、利益相关方对齐及满足监管与资助方要求的社区咨询流程提供全面支持。"
+    }
+  },
+  "stats": {
+    "sectionLabel": "我们的影响",
+    "headline": "切实推动变革的成果",
+    "funding": "$4,700万+",
+    "fundingLabel": "已获取资金",
+    "engagements": "200+",
+    "engagementsLabel": "已交付项目",
+    "jurisdictions": "12",
+    "jurisdictionsLabel": "服务辖区",
+    "retention": "94%",
+    "retentionLabel": "客户留存率"
+  },
+  "team": {
+    "sectionLabel": "领导团队",
+    "headline": "经历过实战的实践者",
+    "subheadline": "我们的领导团队汇集了数十年在技术、公共政策、组织设计和社区发展领域的跨行业经验。"
+  },
+  "caseStudies": {
+    "sectionLabel": "案例研究",
+    "headline": "跨行业经过验证的成果",
+    "viewAll": "查看所有案例研究",
+    "readMore": "阅读案例研究"
+  },
+  "cta": {
+    "headline": "准备好转型您的组织了吗？",
+    "subheadline": "无论您是追求战略使命、融资机会还是组织转型，我们都能提供专业的交付能力。",
+    "primary": "预约咨询",
+    "secondary": "下载能力手册"
+  },
+  "localeSwitcher": {
+    "label": "语言",
+    "en": "English",
+    "fr": "Français",
+    "zh": "中文"
+  }
+}
