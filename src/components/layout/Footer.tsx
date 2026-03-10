@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="mb-4">
               <div className="font-display text-xl font-bold text-white">
-                Neighbourhood Now
+                CivSafe
               </div>
               <div className="text-[10px] font-medium text-brand-400 uppercase tracking-[0.2em] mt-0.5">
                 Strategic Innovation
@@ -55,7 +55,7 @@ export default function Footer() {
                 <Linkedin size={16} />
               </a>
               <a
-                href="mailto:hello@neighbourhoodnow.com"
+                href="mailto:hello@civsafe.ca"
                 className="p-2 rounded bg-brand-800 hover:bg-brand-700 text-brand-300 hover:text-white transition-colors"
                 aria-label="Email"
               >
@@ -111,10 +111,10 @@ export default function Footer() {
               <li className="flex items-start gap-2 text-sm text-brand-400">
                 <Mail size={14} className="mt-0.5 shrink-0 text-brand-500" />
                 <a
-                  href="mailto:hello@neighbourhoodnow.com"
+                  href="mailto:hello@civsafe.ca"
                   className="hover:text-brand-200 transition-colors"
                 >
-                  hello@neighbourhoodnow.com
+                  hello@civsafe.ca
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-brand-400">

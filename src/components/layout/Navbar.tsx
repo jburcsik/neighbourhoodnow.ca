@@ -46,7 +46,7 @@ export default function Navbar() {
             className="flex flex-col leading-tight group"
           >
             <span className="font-display text-xl font-bold text-white tracking-tight">
-              Neighbourhood Now
+              CivSafe
             </span>
             <span className="text-[10px] font-medium text-brand-300 uppercase tracking-[0.2em] group-hover:text-gold-400 transition-colors">
               Strategic Innovation

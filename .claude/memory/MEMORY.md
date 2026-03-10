@@ -30,6 +30,32 @@
 - Fabricated team: Dr. Margaret Chen PhD, Robert Thibodeau PMP, Priya Sharma MBA
 - Fabricated clients: City of Calgary, Province of Ontario, BC Housing, EDC, CN Rail, Telus
 
+## LinkedIn Content Strategy
+- 9 posts written and ready to drop into Google Sheets scheduler
+- Cadence: Mon (thought leadership) / Wed (personal/story) / Fri (punchy/CTA)
+- Post 7 is the co-op associate recruiting post — needs /careers page live first
+- Voice: direct, contrarian, practitioner-first, not corporate-fluffy
+- Key themes: AI readiness theatre, governance over tech, community trust, T-shaped generalists
+
+## Domain Portfolio
+- neighbourhoodnow.com — corporate site (building now)
+- neighbourhoodnow.ca — community initiative
+- burcsik.ca — owned, family/legacy potential
+- jesseburcsik.com — RECOMMENDED next purchase (international personal brand)
+- jesseburcsik.ca — low priority, grab as redirect only if cheap
+
+## Site Network Strategy
+- Three sites cross-link with purpose
+- jesseburcsik.com is the missing hub (the human behind everything)
+- Corporate → credibility / Community → authenticity / Personal → the through-line
+- Content flywheel: write once → corporate case study → LinkedIn → personal site
+
+## Associate/Co-op Model
+- User wants to recruit friends (young + seasoned) as associates
+- Model: they bring expertise, NN brings clients/brand/infrastructure, associates keep majority of billings
+- Need a /careers or /associate-program page on the corporate site
+- LinkedIn Post 7 is the recruitment post pointing to this page
+
 ## PRD Status
 - PRD-001 (scaffolding): COMPLETE — builds clean, deploys to Vercel
 - PRD-002 (design system components): TODO

@@ -22,17 +22,17 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Neighbourhood Now — Strategic Innovation. Community Impact.",
-    template: "%s | Neighbourhood Now",
+    default: "CivSafe — Strategic Innovation. Community Impact.",
+    template: "%s | CivSafe",
   },
   description:
-    "Neighbourhood Now delivers evidence-based consulting, AI readiness frameworks, and agile transformation programs for governments, municipalities, and enterprise.",
+    "CivSafe delivers evidence-based consulting, AI readiness frameworks, and agile transformation programs for governments, municipalities, and enterprise.",
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://neighbourhoodnow.com"
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://civsafe.ca"
   ),
   openGraph: {
     type: "website",
-    siteName: "Neighbourhood Now",
+    siteName: "CivSafe",
   },
 };
 
