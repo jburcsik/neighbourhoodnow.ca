@@ -1,54 +1,12 @@
-import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
-import {
-  Brain,
-  Zap,
-  RefreshCw,
-  Building2,
-  Users,
-  FileText,
-  ArrowRight,
-} from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
+import { ArrowRight } from "lucide-react";
+import { services } from "@/data/services";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import SectionLabel from "@/components/ui/SectionLabel";
 
-const services = [
-  {
-    key: "aiReadiness",
-    href: "/services/ai-readiness",
-    Icon: Brain,
-  },
-  {
-    key: "automation",
-    href: "/services/automation",
-    Icon: Zap,
-  },
-  {
-    key: "agile",
-    href: "/services/agile-coaching",
-    Icon: RefreshCw,
-  },
-  {
-    key: "civic",
-    href: "/services/civic-consulting",
-    Icon: Building2,
-  },
-  {
-    key: "leadership",
-    href: "/services/leadership-development",
-    Icon: Users,
-  },
-  {
-    key: "grant",
-    href: "/services/grant-strategy",
-    Icon: FileText,
-  },
-] as const;
-
 export default function ServicesSection() {
   const t = useTranslations("services");
-  const locale = useLocale();
-  const prefix = locale === "en" ? "" : `/${locale}`;
 
   return (
     <SectionWrapper variant="light" id="services">
@@ -60,10 +18,10 @@ export default function ServicesSection() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {services.map(({ key, href, Icon }) => (
+        {services.map(({ key, slug, Icon }) => (
           <Link
             key={key}
-            href={`${prefix}${href}`}
+            href={`/services/${slug}`}
             className="group relative bg-white border border-slate-100 rounded-sm p-8 shadow-card hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-200"
           >
             {/* Gold left border on hover */}

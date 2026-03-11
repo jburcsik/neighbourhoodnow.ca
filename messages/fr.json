@@ -135,13 +135,138 @@
     "sectionLabel": "Études de cas",
     "headline": "Des résultats éprouvés dans tous les secteurs",
     "viewAll": "Voir toutes les études de cas",
-    "readMore": "Lire l'étude de cas"
+    "readMore": "Lire l'étude de cas",
+    "backToCaseStudies": "Toutes les études de cas",
+    "pageSubheadline": "Des mandats concrets démontrant un impact mesurable dans les secteurs gouvernemental, privé et communautaire.",
+    "impact": "Impact",
+    "sector": "Secteur",
+    "services": "Services"
   },
   "cta": {
     "headline": "Prêt à transformer votre organisation?",
     "subheadline": "Que vous poursuiviez un mandat stratégique, une opportunité de financement ou une transformation organisationnelle, nous apportons l'expertise pour livrer.",
     "primary": "Demander un entretien",
     "secondary": "Télécharger le document de capacités"
+  },
+  "contactPage": {
+    "headline": "Contactez-nous",
+    "subheadline": "Entamons la conversation sur la prochaine transformation de votre organisation.",
+    "offices": "Nos bureaux",
+    "formHeadline": "Envoyez-nous un message",
+    "name": "Nom complet",
+    "namePlaceholder": "Votre nom complet",
+    "email": "Adresse courriel",
+    "emailPlaceholder": "vous@organisation.com",
+    "organization": "Organisation",
+    "organizationPlaceholder": "Votre organisation (facultatif)",
+    "message": "Message",
+    "messagePlaceholder": "Décrivez votre projet ou votre demande...",
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "successHeadline": "Message envoyé",
+    "successText": "Merci de nous avoir contactés. Nous vous répondrons dans un délai de 1 à 2 jours ouvrables.",
+    "errorText": "Une erreur s'est produite. Veuillez réessayer ou nous envoyer un courriel directement.",
+    "required": "Requis",
+    "invalidEmail": "Veuillez entrer une adresse courriel valide",
+    "messageMinLength": "Le message doit contenir au moins 10 caractères",
+    "ottawa": {
+      "city": "Ottawa",
+      "country": "Canada",
+      "address": "150, rue Elgin, bureau 1100",
+      "phone": "+1 (613) 555-0142"
+    },
+    "shanghai": {
+      "city": "Shanghai",
+      "country": "Chine",
+      "address": "Nanjing West Road, district de Jing'an",
+      "phone": "+86 21 6288 0142"
+    },
+    "montreal": {
+      "city": "Montréal",
+      "country": "Canada",
+      "address": "1250, boul. René-Lévesque O., bureau 2200",
+      "phone": "+1 (514) 555-0198"
+    },
+    "toronto": {
+      "city": "Toronto",
+      "country": "Canada",
+      "address": "100 King Street West, bureau 5700",
+      "phone": "+1 (416) 555-0176"
+    }
+  },
+  "about": {
+    "headline": "À propos de CivSafe",
+    "subheadline": "Conseil en innovation stratégique fondé sur des décennies d'expérience intersectorielle en technologie, politiques publiques et développement communautaire.",
+    "missionHeadline": "Notre mission",
+    "missionText": "CivSafe existe pour combler le fossé entre l'intention stratégique et la réalité opérationnelle. Nous aidons les organisations — en particulier dans le secteur public — à développer les capacités internes nécessaires pour réaliser une transformation durable.",
+    "approachHeadline": "Notre approche",
+    "approachText": "Nous sommes d'abord des praticiens. Chaque mandat est dirigé par des consultants qui ont occupé des rôles opérationnels dans les environnements qu'ils conseillent maintenant. Cela signifie que nous comprenons non seulement ce qui doit changer, mais comment faire perdurer le changement.",
+    "valuesHeadline": "Nos valeurs",
+    "values": {
+      "evidence": {
+        "title": "Les preuves avant les opinions",
+        "description": "Chaque recommandation est fondée sur des données, la recherche et l'expérience pratique — jamais sur l'idéologie."
+      },
+      "capability": {
+        "title": "Développer les capacités, pas la dépendance",
+        "description": "Nous mesurons le succès par ce que vos équipes peuvent accomplir après notre départ."
+      },
+      "community": {
+        "title": "Impact communautaire",
+        "description": "Le travail que nous faisons sert en fin de compte les communautés. Nous ne perdons jamais de vue les personnes réelles touchées."
+      },
+      "integrity": {
+        "title": "Intégrité dans la pratique",
+        "description": "Nous disons aux clients ce qu'ils ont besoin d'entendre, pas ce qu'ils veulent entendre."
+      }
+    }
+  },
+  "insightsPage": {
+    "headline": "Publications",
+    "subheadline": "Perspectives sur la stratégie, la technologie et la transformation par notre équipe de praticiens.",
+    "readMore": "Lire l'article",
+    "minRead": "min de lecture",
+    "backToInsights": "Toutes les publications"
+  },
+  "servicesPage": {
+    "headline": "Nos services",
+    "subheadline": "Services-conseils et renforcement des capacités de bout en bout pour les environnements complexes des secteurs public et privé.",
+    "backToServices": "Tous les services",
+    "keyCapabilities": "Capacités clés",
+    "whyItMatters": "Pourquoi c'est important",
+    "getStarted": "Commencer",
+    "getStartedText": "Prêt à explorer comment ce service peut soutenir votre organisation? Entamons la conversation.",
+    "requestBriefing": "Demander un entretien",
+    "aiReadiness": {
+      "detail": "Notre pratique de préparation à l'IA aide les organisations à dépasser le battage médiatique pour développer des capacités IA pratiques et alignées sur la gouvernance. Nous évaluons votre maturité actuelle en données, identifions les cas d'utilisation à forte valeur et élaborons des feuilles de route de mise en œuvre par phases.",
+      "capabilities": ["Évaluations de maturité IA", "Identification et priorisation des cas d'utilisation", "Cadres de gouvernance des données", "Développement de politiques d'IA responsable", "Conseil en évaluation et approvisionnement de fournisseurs", "Programmes de littératie IA pour les dirigeants"],
+      "whyItMatters": "Les organisations qui abordent l'IA sans stratégie structurée risquent des investissements gaspillés, des échecs de gouvernance et la résistance du personnel."
+    },
+    "automation": {
+      "detail": "Nous aidons les organisations à identifier, concevoir et mettre en œuvre des opportunités d'automatisation offrant des gains d'efficacité mesurables. De l'analyse des flux de travail au déploiement RPA, nous construisons une infrastructure numérique évolutive.",
+      "capabilities": ["Cartographie et optimisation des processus", "Conception et mise en œuvre RPA", "Architecture d'intégration", "Gestion du changement pour l'adoption numérique", "Mesure de la performance et cadres KPI", "Modernisation des systèmes existants"],
+      "whyItMatters": "Les processus manuels drainent les ressources et créent des goulots d'étranglement. Notre approche combine expertise technique et compréhension organisationnelle approfondie."
+    },
+    "agile": {
+      "detail": "Notre pratique de transformation agile va au-delà de la formation méthodologique. Nous intégrons des capacités de livraison adaptatives dans votre organisation grâce au coaching par des praticiens, à la facilitation au niveau des équipes et à l'alignement de la gestion de portefeuille.",
+      "capabilities": ["Évaluations de maturité agile", "Coaching Scrum, Kanban et SAFe", "Gestion de la propriété produit et du backlog", "Facilitation de sprints et rétrospectives", "Alignement agile au niveau du portefeuille", "Conseil en approvisionnement agile"],
+      "whyItMatters": "La plupart des transformations agiles échouent parce qu'elles imposent une méthodologie sans aborder la culture. Nous construisons d'abord la confiance, puis les capacités."
+    },
+    "civic": {
+      "detail": "Nous apportons une expérience approfondie du secteur public pour aider les municipalités, les provinces et les sociétés d'État à naviguer l'intersection complexe de la technologie, des politiques et de l'engagement communautaire.",
+      "capabilities": ["Stratégie de gouvernement numérique", "Planification de ville intelligente et conseil IoT", "Conception de plateformes de consultation publique", "Stratégie de données ouvertes", "Alignement technologique intergouvernemental", "Conformité réglementaire et accessibilité"],
+      "whyItMatters": "Les initiatives technologiques gouvernementales font face à des contraintes uniques : règles d'approvisionnement, législation sur la vie privée, exigences d'accessibilité et besoin de responsabilité démocratique."
+    },
+    "leadership": {
+      "detail": "Notre pratique de développement du leadership développe les capacités de leadership interfonctionnel dont les organisations ont besoin pour mener et maintenir la transformation.",
+      "capabilities": ["Coaching et mentorat de dirigeants", "Ateliers d'alignement d'équipe", "Développement du leadership interfonctionnel", "Résolution de conflits et médiation", "Évaluation de la culture organisationnelle", "Conseil en planification de la relève"],
+      "whyItMatters": "Les initiatives de transformation réussissent ou échouent en fonction de la capacité de leadership. Nous développons des leaders capables de naviguer l'ambiguïté et de maintenir l'élan."
+    },
+    "grant": {
+      "detail": "Nous fournissons un soutien complet aux organisations qui recherchent du financement gouvernemental, des subventions de fondations et des programmes d'investissement axés sur les parties prenantes.",
+      "capabilities": ["Identification de subventions et évaluation d'admissibilité", "Rédaction de propositions et développement budgétaire", "Conception de consultations communautaires", "Stratégie d'engagement des parties prenantes", "Cadres de mesure d'impact", "Gestion des relations avec les bailleurs de fonds"],
+      "whyItMatters": "Obtenir du financement nécessite plus qu'une demande solide — cela exige un positionnement stratégique, un alignement des parties prenantes et une mesure d'impact crédible."
+    }
   },
   "localeSwitcher": {
     "label": "Langue",

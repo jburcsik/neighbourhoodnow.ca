@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
-import { Menu, X, Globe } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import LocaleSwitcher from "./LocaleSwitcher";
 
@@ -17,7 +17,6 @@ const navLinks = [
 
 export default function Navbar() {
   const t = useTranslations("nav");
-  const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -26,8 +25,6 @@ export default function Navbar() {
     window.addEventListener("scroll", handler, { passive: true });
     return () => window.removeEventListener("scroll", handler);
   }, []);
-
-  const prefix = locale === "en" ? "" : `/${locale}`;
 
   return (
     <header
@@ -42,7 +39,7 @@ export default function Navbar() {
         <div className="flex h-18 items-center justify-between py-4">
           {/* Logo */}
           <Link
-            href={`${prefix}/`}
+            href="/"
             className="flex flex-col leading-tight group"
           >
             <span className="font-display text-xl font-bold text-white tracking-tight">
@@ -58,7 +55,7 @@ export default function Navbar() {
             {navLinks.map(({ key, href }) => (
               <Link
                 key={key}
-                href={`${prefix}${href}`}
+                href={href}
                 className="text-sm font-medium text-brand-100 hover:text-gold-400 transition-colors tracking-wide"
               >
                 {t(key)}
@@ -70,7 +67,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-4">
             <LocaleSwitcher />
             <Link
-              href={`${prefix}/contact`}
+              href="/contact"
               className="inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-sm bg-gold-500 text-brand-950 hover:bg-gold-400 transition-colors tracking-wide"
             >
               {t("requestBriefing")}
@@ -95,7 +92,7 @@ export default function Navbar() {
             {navLinks.map(({ key, href }) => (
               <Link
                 key={key}
-                href={`${prefix}${href}`}
+                href={href}
                 className="block text-base font-medium text-brand-100 hover:text-gold-400 transition-colors py-2 border-b border-brand-800"
                 onClick={() => setOpen(false)}
               >
@@ -105,7 +102,7 @@ export default function Navbar() {
             <div className="pt-4 flex items-center justify-between">
               <LocaleSwitcher />
               <Link
-                href={`${prefix}/contact`}
+                href="/contact"
                 className="inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-sm bg-gold-500 text-brand-950 hover:bg-gold-400 transition-colors"
                 onClick={() => setOpen(false)}
               >

@@ -135,13 +135,138 @@
     "sectionLabel": "Case Studies",
     "headline": "Proven Results Across Sectors",
     "viewAll": "View All Case Studies",
-    "readMore": "Read Case Study"
+    "readMore": "Read Case Study",
+    "backToCaseStudies": "All Case Studies",
+    "pageSubheadline": "Real-world engagements demonstrating measurable impact across government, enterprise, and community sectors.",
+    "impact": "Impact",
+    "sector": "Sector",
+    "services": "Services"
   },
   "cta": {
     "headline": "Ready to Transform Your Organization?",
     "subheadline": "Whether you are pursuing a strategic mandate, a funding opportunity, or an organizational transformation, we bring the expertise to deliver.",
     "primary": "Request a Briefing",
     "secondary": "Download Capabilities Deck"
+  },
+  "contactPage": {
+    "headline": "Contact Us",
+    "subheadline": "Let's start the conversation about your organization's next transformation.",
+    "offices": "Our Offices",
+    "formHeadline": "Send Us a Message",
+    "name": "Full Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "you@organization.com",
+    "organization": "Organization",
+    "organizationPlaceholder": "Your organization (optional)",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project or inquiry...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "successHeadline": "Message Sent",
+    "successText": "Thank you for reaching out. We'll respond within 1-2 business days.",
+    "errorText": "Something went wrong. Please try again or email us directly.",
+    "required": "Required",
+    "invalidEmail": "Please enter a valid email address",
+    "messageMinLength": "Message must be at least 10 characters",
+    "ottawa": {
+      "city": "Ottawa",
+      "country": "Canada",
+      "address": "150 Elgin Street, Suite 1100",
+      "phone": "+1 (613) 555-0142"
+    },
+    "shanghai": {
+      "city": "Shanghai",
+      "country": "China",
+      "address": "Nanjing West Road, Jing'an District",
+      "phone": "+86 21 6288 0142"
+    },
+    "montreal": {
+      "city": "Montreal",
+      "country": "Canada",
+      "address": "1250 René-Lévesque Blvd W, Suite 2200",
+      "phone": "+1 (514) 555-0198"
+    },
+    "toronto": {
+      "city": "Toronto",
+      "country": "Canada",
+      "address": "100 King Street West, Suite 5700",
+      "phone": "+1 (416) 555-0176"
+    }
+  },
+  "about": {
+    "headline": "About CivSafe",
+    "subheadline": "Strategic innovation consulting built on decades of cross-sector experience in technology, public policy, and community development.",
+    "missionHeadline": "Our Mission",
+    "missionText": "CivSafe exists to bridge the gap between strategic intent and operational reality. We help organizations — particularly in the public sector — build the internal capability to deliver lasting transformation, not just implement temporary solutions.",
+    "approachHeadline": "Our Approach",
+    "approachText": "We are practitioners first. Every engagement is led by consultants who have held operational roles in the environments they now advise. This means we understand not just what needs to change, but how to make change stick within the unique constraints of government, healthcare, and complex enterprise environments.",
+    "valuesHeadline": "Our Values",
+    "values": {
+      "evidence": {
+        "title": "Evidence Over Opinion",
+        "description": "Every recommendation we make is grounded in data, research, and practical experience — never ideology."
+      },
+      "capability": {
+        "title": "Build Capability, Not Dependency",
+        "description": "We measure success by what your teams can do after we leave, not by how long you need us."
+      },
+      "community": {
+        "title": "Community Impact",
+        "description": "The work we do ultimately serves communities. We never lose sight of the real people affected by organizational transformation."
+      },
+      "integrity": {
+        "title": "Integrity in Practice",
+        "description": "We tell clients what they need to hear, not what they want to hear. Honest counsel is the foundation of lasting partnerships."
+      }
+    }
+  },
+  "insightsPage": {
+    "headline": "Insights",
+    "subheadline": "Perspectives on strategy, technology, and transformation from our team of practitioners.",
+    "readMore": "Read Article",
+    "minRead": "min read",
+    "backToInsights": "All Insights"
+  },
+  "servicesPage": {
+    "headline": "Our Services",
+    "subheadline": "End-to-end consulting and capacity building for complex public and private sector environments.",
+    "backToServices": "All Services",
+    "keyCapabilities": "Key Capabilities",
+    "whyItMatters": "Why It Matters",
+    "getStarted": "Get Started",
+    "getStartedText": "Ready to explore how this service can support your organization? Let's start the conversation.",
+    "requestBriefing": "Request a Briefing",
+    "aiReadiness": {
+      "detail": "Our AI Readiness & Strategy practice helps organizations move beyond the hype to build practical, governance-aligned AI capabilities. We assess your current data maturity, identify high-value use cases, and develop phased implementation roadmaps that balance innovation with risk management.",
+      "capabilities": ["AI maturity assessments", "Use-case identification & prioritization", "Data governance frameworks", "Responsible AI policy development", "Vendor evaluation & procurement advisory", "Executive AI literacy programs"],
+      "whyItMatters": "Organizations that approach AI without a structured strategy risk wasted investment, governance failures, and staff resistance. Our frameworks ensure your AI initiatives are grounded in evidence, aligned with strategic priorities, and designed for sustainable adoption."
+    },
+    "automation": {
+      "detail": "We help organizations identify, design, and implement automation opportunities that deliver measurable efficiency gains. From workflow analysis to RPA deployment, we build scalable digital infrastructure that frees your teams to focus on high-value work.",
+      "capabilities": ["Process mapping & optimization", "RPA design & implementation", "Integration architecture", "Change management for digital adoption", "Performance measurement & KPI frameworks", "Legacy system modernization"],
+      "whyItMatters": "Manual processes drain resources and create bottlenecks. Our approach combines technical expertise with deep organizational understanding to ensure automation initiatives deliver real operational value — not just technology for technology's sake."
+    },
+    "agile": {
+      "detail": "Our Agile Transformation practice goes beyond methodology training. We embed adaptive delivery capabilities across your organization through practitioner-led coaching, team-level facilitation, and enterprise-wide portfolio management alignment.",
+      "capabilities": ["Agile maturity assessments", "Scrum, Kanban & SAFe coaching", "Product ownership & backlog management", "Sprint facilitation & retrospectives", "Portfolio-level agile alignment", "Agile procurement advisory"],
+      "whyItMatters": "Most agile transformations fail because they impose methodology without addressing culture. We build trust first, then capability — ensuring your teams genuinely adopt adaptive practices rather than just going through the motions."
+    },
+    "civic": {
+      "detail": "We bring deep public sector experience to help municipalities, provinces, and crown corporations navigate the complex intersection of technology, policy, and community engagement. Our advisory services are grounded in practical experience delivering within government.",
+      "capabilities": ["Digital government strategy", "Smart city planning & IoT advisory", "Public consultation platform design", "Open data strategy", "Intergovernmental technology alignment", "Regulatory compliance & accessibility"],
+      "whyItMatters": "Government technology initiatives face unique constraints: procurement rules, privacy legislation, accessibility requirements, and the need for democratic accountability. We understand these constraints because we've worked within them."
+    },
+    "leadership": {
+      "detail": "Our Leadership Development practice builds the cross-functional leadership capability organizations need to drive and sustain transformation. Through high-impact facilitation, executive coaching, and team alignment programs, we unlock performance at every level.",
+      "capabilities": ["Executive coaching & mentorship", "Team alignment workshops", "Cross-functional leadership development", "Conflict resolution & mediation", "Organizational culture assessment", "Succession planning advisory"],
+      "whyItMatters": "Transformation initiatives succeed or fail based on leadership capability. We develop leaders who can navigate ambiguity, build coalitions, and sustain momentum through complex organizational change."
+    },
+    "grant": {
+      "detail": "We provide comprehensive support for organizations pursuing government funding, foundation grants, and stakeholder-driven investment programs. From proposal development to community consultation, we help you build compelling cases that satisfy funder requirements.",
+      "capabilities": ["Grant identification & eligibility assessment", "Proposal writing & budget development", "Community consultation design", "Stakeholder engagement strategy", "Impact measurement frameworks", "Funder relationship management"],
+      "whyItMatters": "Securing funding requires more than a strong application — it requires strategic positioning, stakeholder alignment, and credible impact measurement. We help you build the complete case for investment."
+    }
   },
   "localeSwitcher": {
     "label": "Language",

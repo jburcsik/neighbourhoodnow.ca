@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { ArrowRight, TrendingUp } from "lucide-react";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import SectionLabel from "@/components/ui/SectionLabel";
@@ -11,8 +11,6 @@ interface CaseStudiesSectionProps {
 
 export default function CaseStudiesSection({ caseStudies }: CaseStudiesSectionProps) {
   const t = useTranslations("caseStudies");
-  const locale = useLocale();
-  const prefix = locale === "en" ? "" : `/${locale}`;
 
   return (
     <SectionWrapper variant="muted" id="case-studies">
@@ -24,7 +22,7 @@ export default function CaseStudiesSection({ caseStudies }: CaseStudiesSectionPr
           </h2>
         </div>
         <Link
-          href={`${prefix}/case-studies`}
+          href="/case-studies"
           className="shrink-0 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-gold-600 transition-colors uppercase tracking-wider"
         >
           {t("viewAll")}
@@ -36,7 +34,7 @@ export default function CaseStudiesSection({ caseStudies }: CaseStudiesSectionPr
         {caseStudies.map((cs) => (
           <Link
             key={cs.slug}
-            href={`${prefix}/case-studies/${cs.slug}`}
+            href={`/case-studies/${cs.slug}`}
             className="group flex flex-col bg-white border border-slate-100 rounded-sm shadow-card hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-200 overflow-hidden"
           >
             {/* Teal header band */}

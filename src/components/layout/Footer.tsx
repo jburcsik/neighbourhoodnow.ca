@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { Linkedin, Mail, Phone } from "lucide-react";
 
 const serviceLinks = [
@@ -20,8 +20,6 @@ const companyLinks = [
 
 export default function Footer() {
   const t = useTranslations("footer");
-  const locale = useLocale();
-  const prefix = locale === "en" ? "" : `/${locale}`;
   const year = new Date().getFullYear();
 
   return (
@@ -73,7 +71,7 @@ export default function Footer() {
               {serviceLinks.map(({ key, href }) => (
                 <li key={href}>
                   <Link
-                    href={`${prefix}${href}`}
+                    href={href}
                     className="text-sm text-brand-400 hover:text-brand-200 transition-colors"
                   >
                     {t(`serviceLinks.${key}`)}
@@ -92,7 +90,7 @@ export default function Footer() {
               {companyLinks.map(({ key, href }) => (
                 <li key={href}>
                   <Link
-                    href={`${prefix}${href}`}
+                    href={href}
                     className="text-sm text-brand-400 hover:text-brand-200 transition-colors"
                   >
                     {t(`companyLinks.${key}`)}
@@ -135,13 +133,13 @@ export default function Footer() {
           </p>
           <div className="flex gap-6">
             <Link
-              href={`${prefix}/privacy`}
+              href="/privacy"
               className="text-xs text-brand-500 hover:text-brand-300 transition-colors"
             >
               {t("privacy")}
             </Link>
             <Link
-              href={`${prefix}/terms`}
+              href="/terms"
               className="text-xs text-brand-500 hover:text-brand-300 transition-colors"
             >
               {t("terms")}

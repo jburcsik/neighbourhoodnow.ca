@@ -135,13 +135,138 @@
     "sectionLabel": "案例研究",
     "headline": "跨行业经过验证的成果",
     "viewAll": "查看所有案例研究",
-    "readMore": "阅读案例研究"
+    "readMore": "阅读案例研究",
+    "backToCaseStudies": "所有案例研究",
+    "pageSubheadline": "展示在政府、企业和社区领域可量化影响的实际项目。",
+    "impact": "影响",
+    "sector": "行业",
+    "services": "服务"
   },
   "cta": {
     "headline": "准备好转型您的组织了吗？",
     "subheadline": "无论您是追求战略使命、融资机会还是组织转型，我们都能提供专业的交付能力。",
     "primary": "预约咨询",
     "secondary": "下载能力手册"
+  },
+  "contactPage": {
+    "headline": "联系我们",
+    "subheadline": "让我们开始关于贵组织下一次转型的对话。",
+    "offices": "我们的办公室",
+    "formHeadline": "给我们留言",
+    "name": "姓名",
+    "namePlaceholder": "您的全名",
+    "email": "电子邮箱",
+    "emailPlaceholder": "you@organization.com",
+    "organization": "组织",
+    "organizationPlaceholder": "您的组织（可选）",
+    "message": "留言",
+    "messagePlaceholder": "请描述您的项目或咨询需求...",
+    "submit": "发送消息",
+    "sending": "发送中...",
+    "successHeadline": "消息已发送",
+    "successText": "感谢您的来信。我们将在1-2个工作日内回复。",
+    "errorText": "出现了问题。请重试或直接发送电子邮件。",
+    "required": "必填",
+    "invalidEmail": "请输入有效的电子邮箱地址",
+    "messageMinLength": "消息至少需要10个字符",
+    "ottawa": {
+      "city": "渥太华",
+      "country": "加拿大",
+      "address": "150 Elgin Street, Suite 1100",
+      "phone": "+1 (613) 555-0142"
+    },
+    "shanghai": {
+      "city": "上海",
+      "country": "中国",
+      "address": "南京西路，静安区",
+      "phone": "+86 21 6288 0142"
+    },
+    "montreal": {
+      "city": "蒙特利尔",
+      "country": "加拿大",
+      "address": "1250 René-Lévesque Blvd W, Suite 2200",
+      "phone": "+1 (514) 555-0198"
+    },
+    "toronto": {
+      "city": "多伦多",
+      "country": "加拿大",
+      "address": "100 King Street West, Suite 5700",
+      "phone": "+1 (416) 555-0176"
+    }
+  },
+  "about": {
+    "headline": "关于 CivSafe",
+    "subheadline": "基于数十年跨行业技术、公共政策和社区发展经验的战略创新咨询。",
+    "missionHeadline": "我们的使命",
+    "missionText": "CivSafe 致力于弥合战略意图与运营现实之间的差距。我们帮助组织——尤其是公共部门——构建内部能力以实现持久转型，而不仅仅是实施临时解决方案。",
+    "approachHeadline": "我们的方法",
+    "approachText": "我们首先是实践者。每个项目都由曾在所咨询环境中担任运营角色的顾问领导。这意味着我们不仅理解需要改变什么，还理解如何在独特约束条件下使变革持久。",
+    "valuesHeadline": "我们的价值观",
+    "values": {
+      "evidence": {
+        "title": "证据优先",
+        "description": "我们的每项建议都以数据、研究和实践经验为基础——从不基于意识形态。"
+      },
+      "capability": {
+        "title": "建设能力，而非依赖",
+        "description": "我们以您的团队在我们离开后能做什么来衡量成功。"
+      },
+      "community": {
+        "title": "社区影响",
+        "description": "我们的工作最终服务于社区。我们永远不会忽视受组织转型影响的真实个体。"
+      },
+      "integrity": {
+        "title": "践行诚信",
+        "description": "我们告诉客户他们需要听到的，而不是他们想听到的。"
+      }
+    }
+  },
+  "insightsPage": {
+    "headline": "洞察",
+    "subheadline": "我们实践者团队关于战略、技术和转型的观点。",
+    "readMore": "阅读文章",
+    "minRead": "分钟阅读",
+    "backToInsights": "所有洞察"
+  },
+  "servicesPage": {
+    "headline": "我们的服务",
+    "subheadline": "面向公共和私营部门复杂环境的端到端咨询与能力建设。",
+    "backToServices": "所有服务",
+    "keyCapabilities": "核心能力",
+    "whyItMatters": "为什么重要",
+    "getStarted": "开始合作",
+    "getStartedText": "准备好探索这项服务如何支持您的组织了吗？让我们开始对话。",
+    "requestBriefing": "预约咨询",
+    "aiReadiness": {
+      "detail": "我们的AI准备评估与战略实践帮助组织超越炒作，构建实用的、与治理对齐的AI能力。我们评估您当前的数据成熟度，识别高价值用例，并制定分阶段的实施路线图。",
+      "capabilities": ["AI成熟度评估", "用例识别与优先级排序", "数据治理框架", "负责任AI政策制定", "供应商评估与采购顾问", "高管AI素养项目"],
+      "whyItMatters": "没有结构化战略就采用AI的组织面临投资浪费、治理失败和员工抵触的风险。我们的框架确保您的AI举措以证据为基础。"
+    },
+    "automation": {
+      "detail": "我们帮助组织识别、设计和实施能带来可量化效率提升的自动化机会。从工作流分析到RPA部署，我们构建可扩展的数字基础设施。",
+      "capabilities": ["流程映射与优化", "RPA设计与实施", "集成架构", "数字化采用变革管理", "绩效衡量与KPI框架", "遗留系统现代化"],
+      "whyItMatters": "手动流程消耗资源并造成瓶颈。我们的方法将技术专长与深度组织理解相结合，确保自动化举措带来真正的运营价值。"
+    },
+    "agile": {
+      "detail": "我们的敏捷转型实践超越方法论培训。我们通过实践者主导的辅导、团队级引导和企业级项目组合管理对齐，在您的组织中嵌入自适应交付能力。",
+      "capabilities": ["敏捷成熟度评估", "Scrum、看板和SAFe辅导", "产品负责人与需求管理", "冲刺引导与回顾", "项目组合级敏捷对齐", "敏捷采购顾问"],
+      "whyItMatters": "大多数敏捷转型失败是因为强加方法论而未解决文化问题。我们先建立信任，再建立能力。"
+    },
+    "civic": {
+      "detail": "我们凭借深厚的公共部门经验，帮助城市、省级政府和国有企业驾驭技术、政策与社区参与的复杂交汇地带。",
+      "capabilities": ["数字政府战略", "智慧城市规划与物联网顾问", "公众咨询平台设计", "开放数据战略", "跨政府技术对齐", "法规合规与无障碍"],
+      "whyItMatters": "政府技术举措面临独特约束：采购规则、隐私立法、无障碍要求以及民主问责的需要。"
+    },
+    "leadership": {
+      "detail": "我们的领导力发展实践构建组织推动和维持转型所需的跨职能领导能力。通过高影响力引导、高管辅导和团队对齐项目，我们释放各层级的绩效潜能。",
+      "capabilities": ["高管辅导与指导", "团队对齐工作坊", "跨职能领导力发展", "冲突解决与调解", "组织文化评估", "继任规划顾问"],
+      "whyItMatters": "转型举措的成败取决于领导能力。我们培养能够驾驭模糊性、建立联盟并在复杂组织变革中保持动力的领导者。"
+    },
+    "grant": {
+      "detail": "我们为寻求政府资金、基金会拨款和利益相关方驱动投资项目的组织提供全面支持。从提案撰写到社区咨询，我们帮助您建立令人信服的投资案例。",
+      "capabilities": ["资助识别与资格评估", "提案撰写与预算制定", "社区咨询设计", "利益相关方参与策略", "影响衡量框架", "资助方关系管理"],
+      "whyItMatters": "获得资金不仅需要强有力的申请——还需要战略定位、利益相关方对齐和可信的影响衡量。"
+    }
   },
   "localeSwitcher": {
     "label": "语言",

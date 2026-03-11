@@ -1,12 +1,10 @@
-import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { ArrowRight, ChevronDown } from "lucide-react";
 
 export default function HeroSection() {
   const t = useTranslations("hero");
   const tStats = useTranslations("stats");
-  const locale = useLocale();
-  const prefix = locale === "en" ? "" : `/${locale}`;
 
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-hero-gradient">
@@ -50,14 +48,14 @@ export default function HeroSection() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href={`${prefix}/contact`}
+              href="/contact"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 text-sm font-semibold rounded-sm bg-gold-500 text-brand-950 hover:bg-gold-400 transition-colors tracking-wide"
             >
               {t("ctaPrimary")}
               <ArrowRight size={16} />
             </Link>
             <Link
-              href={`${prefix}/case-studies`}
+              href="/case-studies"
               className="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold rounded-sm border border-brand-500 text-white hover:border-gold-400 hover:text-gold-400 transition-colors tracking-wide"
             >
               {t("ctaSecondary")}
