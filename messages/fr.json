@@ -11,15 +11,31 @@
     "tagline": "Innovation stratégique. Impact communautaire. Résultats mesurables.",
     "services": "Services",
     "company": "Entreprise",
-    "legal": "Mentions légales",
+    "contact": "Contact",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "copyright": "© {year} CivSafe Inc. Tous droits réservés.",
-    "jurisdictions": "Nous servons des clients partout au Canada, aux États-Unis et à l'international."
+    "jurisdictions": "Nous servons des clients partout au Canada, aux États-Unis et à l'international.",
+    "serviceLinks": {
+      "aiReadiness": "Préparation à l'IA et stratégie",
+      "automation": "Automatisation des processus",
+      "agileCoaching": "Transformation agile",
+      "civicConsulting": "Technologie civique",
+      "leadershipDevelopment": "Développement du leadership",
+      "grantStrategy": "Stratégie de subventions"
+    },
+    "companyLinks": {
+      "about": "À propos",
+      "caseStudies": "Études de cas",
+      "insights": "Publications",
+      "contact": "Contact"
+    }
   },
   "hero": {
     "eyebrow": "Approuvé par les gouvernements et les entreprises",
-    "headline": "Là où la stratégie rencontre la communauté. À grande échelle.",
+    "headlineLine1": "Là où la stratégie",
+    "headlineLine2": "rencontre la communauté.",
+    "headlineLine3": "À grande échelle.",
     "subheadline": "CivSafe offre des services-conseils fondés sur des données probantes, des cadres de préparation à l'IA et des programmes de transformation agile qui créent un impact durable.",
     "ctaPrimary": "Demander un entretien",
     "ctaSecondary": "Voir nos travaux"
@@ -27,6 +43,7 @@
   "services": {
     "sectionLabel": "Nos services",
     "headline": "Renforcement des capacités de bout en bout pour les environnements complexes",
+    "learnMore": "En savoir plus",
     "aiReadiness": {
       "title": "Préparation à l'IA et stratégie",
       "description": "Cadres d'évaluation structurés et feuilles de route de mise en œuvre pour positionner votre organisation afin d'exploiter l'intelligence artificielle avec confiance et rigueur de gouvernance."
@@ -64,10 +81,55 @@
     "retention": "94 %",
     "retentionLabel": "Taux de rétention des clients"
   },
+  "logoStrip": {
+    "trustedBy": "Ils nous font confiance"
+  },
   "team": {
     "sectionLabel": "Direction",
     "headline": "Des praticiens qui ont fait leurs preuves",
-    "subheadline": "Notre équipe de direction réunit des décennies d'expérience intersectorielle en technologie, politiques publiques, conception organisationnelle et développement communautaire."
+    "subheadline": "Notre équipe de direction réunit des décennies d'expérience intersectorielle en technologie, politiques publiques, conception organisationnelle et développement communautaire.",
+    "members": {
+      "jesse": {
+        "title": "Fondateur et stratège principal",
+        "bio": "Avec deux décennies à l'intersection de la technologie, de la conception organisationnelle et du développement communautaire, Jesse a dirigé des transformations pour des gouvernements municipaux, des sociétés d'État et des entreprises du Fortune 500. Sa philosophie axée sur la pratique a fait de CivSafe un partenaire de confiance pour les dirigeants naviguant des changements complexes."
+      },
+      "margaret": {
+        "title": "Directrice, Innovation du secteur public",
+        "bio": "Dre Chen apporte 18 ans d'expérience en conseil de haut niveau au sein du gouvernement fédéral et provincial, notamment au Bureau du Conseil privé et au ministère des Services aux citoyens de la C.-B. Son expertise en conception de politiques fondées sur des données probantes et en transformation numérique du secteur public soutient la pratique gouvernementale de CivSafe."
+      },
+      "robert": {
+        "title": "Conseiller principal, Relations gouvernementales",
+        "bio": "La carrière de 25 ans de Robert couvre des rôles consultatifs au niveau de sous-ministre, des postes d'administrateur et des mandats de consultation de haut niveau auprès de clients nationaux et internationaux. Il se spécialise dans l'alignement des parties prenantes, la stratégie de subventions et la navigation de l'économie politique des programmes d'investissement public à grande échelle."
+      },
+      "priya": {
+        "title": "Responsable, Transformation numérique",
+        "bio": "Priya dirige la pratique d'automatisation d'entreprise et de préparation à l'IA de CivSafe. Avant de rejoindre la firme, elle a occupé des postes de direction en produits et transformation dans deux des cinq grandes banques canadiennes et une entreprise de logistique nationale, livrant des portefeuilles technologiques complexes dans des environnements réglementés."
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "Ce que disent nos clients",
+    "headline": "Les résultats parlent d'eux-mêmes",
+    "items": {
+      "calgary": {
+        "quote": "CivSafe a apporté un niveau de clarté stratégique et de rigueur de mise en œuvre que nous n'avions jamais connu auparavant. Ils ne nous ont pas simplement remis un rapport — ils ont développé la capacité au sein de nos équipes pour maintenir la transformation.",
+        "author": "Directeur de la stratégie numérique",
+        "org": "Ville de Calgary",
+        "sector": "Gouvernement municipal"
+      },
+      "ontario": {
+        "quote": "Le cadre qu'ils ont développé nous a donné le langage, les preuves et la structure de gouvernance pour présenter des propositions d'investissement en IA au Conseil du Trésor avec confiance. Ce n'est pas rien.",
+        "author": "Sous-ministre adjoint",
+        "org": "Province de l'Ontario",
+        "sector": "Gouvernement provincial"
+      },
+      "bcHousing": {
+        "quote": "Jesse et son équipe ont compris quelque chose que la plupart des consultants agiles manquent : on ne peut pas imposer une méthodologie à une culture. Ils ont d'abord bâti la confiance, puis les capacités. Les résultats parlent d'eux-mêmes.",
+        "author": "Vice-président, Technologie et Innovation",
+        "org": "BC Housing",
+        "sector": "Société d'État"
+      }
+    }
   },
   "caseStudies": {
     "sectionLabel": "Études de cas",

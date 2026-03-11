@@ -11,15 +11,31 @@
     "tagline": "战略创新。社区影响。可量化的成果。",
     "services": "服务",
     "company": "公司",
-    "legal": "法律",
+    "contact": "联系方式",
     "privacy": "隐私政策",
     "terms": "服务条款",
     "copyright": "© {year} CivSafe Inc. 版权所有。",
-    "jurisdictions": "为加拿大、美国及国际客户提供服务。"
+    "jurisdictions": "为加拿大、美国及国际客户提供服务。",
+    "serviceLinks": {
+      "aiReadiness": "AI准备评估与战略",
+      "automation": "流程自动化",
+      "agileCoaching": "敏捷转型",
+      "civicConsulting": "市政技术",
+      "leadershipDevelopment": "领导力发展",
+      "grantStrategy": "资助策略"
+    },
+    "companyLinks": {
+      "about": "关于我们",
+      "caseStudies": "案例研究",
+      "insights": "洞察",
+      "contact": "联系我们"
+    }
   },
   "hero": {
     "eyebrow": "获得政府与企业信赖",
-    "headline": "战略与社区的交汇点。大规模落地。",
+    "headlineLine1": "战略与社区",
+    "headlineLine2": "的交汇点。",
+    "headlineLine3": "大规模落地。",
     "subheadline": "CivSafe 提供基于实证的咨询服务、人工智能准备框架及敏捷转型项目，创造持久的组织与社区影响力。",
     "ctaPrimary": "预约咨询",
     "ctaSecondary": "查看我们的工作"
@@ -27,6 +43,7 @@
   "services": {
     "sectionLabel": "我们的服务",
     "headline": "面向复杂环境的端到端能力建设",
+    "learnMore": "了解更多",
     "aiReadiness": {
       "title": "AI准备评估与战略",
       "description": "结构化评估框架与实施路线图，助力贵组织以信心和治理严谨性充分利用人工智能技术。"
@@ -64,10 +81,55 @@
     "retention": "94%",
     "retentionLabel": "客户留存率"
   },
+  "logoStrip": {
+    "trustedBy": "信赖我们的客户"
+  },
   "team": {
     "sectionLabel": "领导团队",
     "headline": "经历过实战的实践者",
-    "subheadline": "我们的领导团队汇集了数十年在技术、公共政策、组织设计和社区发展领域的跨行业经验。"
+    "subheadline": "我们的领导团队汇集了数十年在技术、公共政策、组织设计和社区发展领域的跨行业经验。",
+    "members": {
+      "jesse": {
+        "title": "创始人兼首席战略师",
+        "bio": "在技术、组织设计和社区发展的交汇领域拥有二十年经验，Jesse 曾领导市政府、国有企业和财富500强企业的转型。他以实践为先的理念使 CivSafe 成为领导者应对复杂变革的可信赖合作伙伴。"
+      },
+      "margaret": {
+        "title": "公共部门创新总监",
+        "bio": "陈博士在联邦和省级政府拥有18年高级咨询经验，曾在枢密院办公室和卑诗省公民服务部任职。她在循证政策设计和公共部门数字化转型方面的专长支撑着 CivSafe 的政府业务实践。"
+      },
+      "robert": {
+        "title": "高级顾问，政府关系",
+        "bio": "Robert 25年的职业生涯涵盖副部长级咨询角色、董事会职务以及与国内和国际客户的高级咨询项目。他专注于利益相关方协调、资助策略以及大规模公共投资项目的政治经济学。"
+      },
+      "priya": {
+        "title": "数字化转型负责人",
+        "bio": "Priya 领导 CivSafe 的企业自动化和AI准备评估实践。加入公司之前，她曾在加拿大五大银行中的两家和一家全国性物流公司担任高级产品和转型职务，在受监管环境中交付复杂的技术项目组合。"
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "客户评价",
+    "headline": "成果胜于雄辩",
+    "items": {
+      "calgary": {
+        "quote": "CivSafe 带来了我们之前从未体验过的战略清晰度和实施严谨性。他们不只是交给我们一份报告——他们在我们的团队中建立了维持转型的能力。",
+        "author": "数字战略总监",
+        "org": "卡尔加里市",
+        "sector": "市政府"
+      },
+      "ontario": {
+        "quote": "他们开发的框架给了我们语言、证据和治理结构，使我们能够自信地将AI投资提案提交给财政委员会。这可不是小事。",
+        "author": "助理副部长",
+        "org": "安大略省",
+        "sector": "省政府"
+      },
+      "bcHousing": {
+        "quote": "Jesse 和他的团队理解了大多数敏捷顾问忽略的一点：你不能将方法论强加于一种文化。他们先建立信任，再建立能力。结果不言自明。",
+        "author": "技术与创新副总裁",
+        "org": "BC Housing",
+        "sector": "国有企业"
+      }
+    }
   },
   "caseStudies": {
     "sectionLabel": "案例研究",

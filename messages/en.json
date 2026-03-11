@@ -11,15 +11,31 @@
     "tagline": "Strategic innovation. Community impact. Measurable results.",
     "services": "Services",
     "company": "Company",
-    "legal": "Legal",
+    "contact": "Contact",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyright": "© {year} CivSafe Inc. All rights reserved.",
-    "jurisdictions": "Serving clients across Canada, the United States, and internationally."
+    "jurisdictions": "Serving clients across Canada, the United States, and internationally.",
+    "serviceLinks": {
+      "aiReadiness": "AI Readiness & Strategy",
+      "automation": "Process Automation",
+      "agileCoaching": "Agile Transformation",
+      "civicConsulting": "Civic Technology",
+      "leadershipDevelopment": "Leadership Development",
+      "grantStrategy": "Grant Strategy"
+    },
+    "companyLinks": {
+      "about": "About Us",
+      "caseStudies": "Case Studies",
+      "insights": "Insights",
+      "contact": "Contact"
+    }
   },
   "hero": {
     "eyebrow": "Trusted by Governments & Enterprise",
-    "headline": "Where Strategy Meets Community. At Scale.",
+    "headlineLine1": "Where Strategy",
+    "headlineLine2": "Meets Community.",
+    "headlineLine3": "At Scale.",
     "subheadline": "CivSafe delivers evidence-based consulting, AI readiness frameworks, and agile transformation programs that create lasting organizational and community impact.",
     "ctaPrimary": "Request a Briefing",
     "ctaSecondary": "View Our Work"
@@ -27,6 +43,7 @@
   "services": {
     "sectionLabel": "Our Services",
     "headline": "End-to-End Capacity Building for Complex Environments",
+    "learnMore": "Learn more",
     "aiReadiness": {
       "title": "AI Readiness & Strategy",
       "description": "Structured assessment frameworks and implementation roadmaps that position your organization to leverage artificial intelligence with confidence and governance rigor."
@@ -64,10 +81,55 @@
     "retention": "94%",
     "retentionLabel": "Client Retention Rate"
   },
+  "logoStrip": {
+    "trustedBy": "Trusted By"
+  },
   "team": {
     "sectionLabel": "Leadership",
     "headline": "Practitioners Who Have Done the Work",
-    "subheadline": "Our leadership team brings together decades of cross-sector experience in technology, public policy, organizational design, and community development."
+    "subheadline": "Our leadership team brings together decades of cross-sector experience in technology, public policy, organizational design, and community development.",
+    "members": {
+      "jesse": {
+        "title": "Founder & Principal Strategist",
+        "bio": "With two decades at the intersection of technology, organizational design, and community development, Jesse has led transformations for municipal governments, crown corporations, and Fortune 500 enterprises. His practitioner-first philosophy has made CivSafe a trusted partner for leaders navigating complex change."
+      },
+      "margaret": {
+        "title": "Director, Public Sector Innovation",
+        "bio": "Dr. Chen brings 18 years of senior advisory experience within federal and provincial government, including stints at the Privy Council Office and the BC Ministry of Citizens' Services. Her expertise in evidence-based policy design and public sector digital transformation underpins CivSafe's government practice."
+      },
+      "robert": {
+        "title": "Senior Advisor, Government Relations",
+        "bio": "Robert's 25-year career spans deputy minister-level advisory roles, board directorships, and senior consulting engagements with national and international clients. He specializes in stakeholder alignment, grant strategy, and navigating the political economy of large-scale public investment programs."
+      },
+      "priya": {
+        "title": "Lead, Digital Transformation",
+        "bio": "Priya leads CivSafe's enterprise automation and AI readiness practice. Prior to joining the firm, she held senior product and transformation roles at two of Canada's Big Five banks and a national logistics company, delivering complex technology portfolios in regulated environments."
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "What Clients Say",
+    "headline": "Results Speak Louder",
+    "items": {
+      "calgary": {
+        "quote": "CivSafe brought a level of strategic clarity and implementation rigour we hadn't experienced before. They didn't just hand us a report — they built the capability within our teams to sustain the transformation.",
+        "author": "Director of Digital Strategy",
+        "org": "City of Calgary",
+        "sector": "Municipal Government"
+      },
+      "ontario": {
+        "quote": "The framework they developed gave us the language, the evidence, and the governance structure to take AI investment proposals through Treasury Board with confidence. That's not a small thing.",
+        "author": "Assistant Deputy Minister",
+        "org": "Province of Ontario",
+        "sector": "Provincial Government"
+      },
+      "bcHousing": {
+        "quote": "Jesse and his team understood something most agile consultants miss: you can't impose methodology on a culture. They built trust first, then built capability. The results speak for themselves.",
+        "author": "Vice President, Technology & Innovation",
+        "org": "BC Housing",
+        "sector": "Crown Corporation"
+      }
+    }
   },
   "caseStudies": {
     "sectionLabel": "Case Studies",

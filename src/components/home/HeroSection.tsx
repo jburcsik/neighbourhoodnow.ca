@@ -4,6 +4,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 
 export default function HeroSection() {
   const t = useTranslations("hero");
+  const tStats = useTranslations("stats");
   const locale = useLocale();
   const prefix = locale === "en" ? "" : `/${locale}`;
 
@@ -34,11 +35,11 @@ export default function HeroSection() {
 
           {/* Headline */}
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-[1.05] mb-6">
-            Where Strategy
+            {t("headlineLine1")}
             <br />
-            Meets Community.
+            {t("headlineLine2")}
             <br />
-            <span className="text-brand-300">At Scale.</span>
+            <span className="text-brand-300">{t("headlineLine3")}</span>
           </h1>
 
           {/* Subheadline */}
@@ -66,15 +67,10 @@ export default function HeroSection() {
 
         {/* Stats row */}
         <div className="mt-20 pt-10 border-t border-brand-700 grid grid-cols-2 md:grid-cols-4 gap-8">
-          {[
-            { value: "$47M+", label: "In Secured Funding" },
-            { value: "200+", label: "Engagements Delivered" },
-            { value: "12", label: "Jurisdictions Served" },
-            { value: "94%", label: "Client Retention" },
-          ].map(({ value, label }) => (
-            <div key={label}>
-              <div className="font-display text-3xl font-bold text-white">{value}</div>
-              <div className="text-xs text-brand-400 uppercase tracking-wider mt-1">{label}</div>
+          {(["funding", "engagements", "jurisdictions", "retention"] as const).map((key) => (
+            <div key={key}>
+              <div className="font-display text-3xl font-bold text-white">{tStats(key)}</div>
+              <div className="text-xs text-brand-400 uppercase tracking-wider mt-1">{tStats(`${key}Label`)}</div>
             </div>
           ))}
         </div>

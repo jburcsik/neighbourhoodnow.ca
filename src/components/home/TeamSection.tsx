@@ -23,7 +23,7 @@ export default function TeamSection() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {team.map((member) => (
           <div
-            key={member.name}
+            key={member.key}
             className="group relative bg-brand-900 rounded-sm overflow-hidden border border-brand-800 hover:border-brand-600 transition-colors"
           >
             {/* Photo */}
@@ -52,7 +52,7 @@ export default function TeamSection() {
                     )}
                   </h3>
                   <p className="text-xs text-brand-400 mt-1 leading-snug">
-                    {member.title}
+                    {t(`members.${member.key}.title`)}
                   </p>
                 </div>
                 {member.linkedin && (
@@ -68,7 +68,7 @@ export default function TeamSection() {
                 )}
               </div>
               <p className="text-xs text-brand-400 leading-relaxed mt-3 line-clamp-3">
-                {member.bio}
+                {t(`members.${member.key}.bio`)}
               </p>
             </div>
 

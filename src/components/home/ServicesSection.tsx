@@ -81,7 +81,7 @@ export default function ServicesSection() {
             </p>
 
             <div className="mt-5 inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 uppercase tracking-wider group-hover:text-gold-600 transition-colors">
-              Learn more
+              {t("learnMore")}
               <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
             </div>
           </Link>

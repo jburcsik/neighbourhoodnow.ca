@@ -2,27 +2,27 @@ import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { Linkedin, Mail, Phone } from "lucide-react";
 
+const serviceLinks = [
+  { key: "aiReadiness", href: "/services/ai-readiness" },
+  { key: "automation", href: "/services/automation" },
+  { key: "agileCoaching", href: "/services/agile-coaching" },
+  { key: "civicConsulting", href: "/services/civic-consulting" },
+  { key: "leadershipDevelopment", href: "/services/leadership-development" },
+  { key: "grantStrategy", href: "/services/grant-strategy" },
+] as const;
+
+const companyLinks = [
+  { key: "about", href: "/about" },
+  { key: "caseStudies", href: "/case-studies" },
+  { key: "insights", href: "/insights" },
+  { key: "contact", href: "/contact" },
+] as const;
+
 export default function Footer() {
   const t = useTranslations("footer");
   const locale = useLocale();
   const prefix = locale === "en" ? "" : `/${locale}`;
   const year = new Date().getFullYear();
-
-  const services = [
-    { label: "AI Readiness & Strategy", href: "/services/ai-readiness" },
-    { label: "Process Automation", href: "/services/automation" },
-    { label: "Agile Transformation", href: "/services/agile-coaching" },
-    { label: "Civic Technology", href: "/services/civic-consulting" },
-    { label: "Leadership Development", href: "/services/leadership-development" },
-    { label: "Grant Strategy", href: "/services/grant-strategy" },
-  ];
-
-  const company = [
-    { label: "About Us", href: "/about" },
-    { label: "Case Studies", href: "/case-studies" },
-    { label: "Insights", href: "/insights" },
-    { label: "Contact", href: "/contact" },
-  ];
 
   return (
     <footer className="bg-brand-950 text-brand-200">
@@ -70,13 +70,13 @@ export default function Footer() {
               {t("services")}
             </h3>
             <ul className="space-y-2.5">
-              {services.map(({ label, href }) => (
+              {serviceLinks.map(({ key, href }) => (
                 <li key={href}>
                   <Link
                     href={`${prefix}${href}`}
                     className="text-sm text-brand-400 hover:text-brand-200 transition-colors"
                   >
-                    {label}
+                    {t(`serviceLinks.${key}`)}
                   </Link>
                 </li>
               ))}
@@ -89,13 +89,13 @@ export default function Footer() {
               {t("company")}
             </h3>
             <ul className="space-y-2.5">
-              {company.map(({ label, href }) => (
+              {companyLinks.map(({ key, href }) => (
                 <li key={href}>
                   <Link
                     href={`${prefix}${href}`}
                     className="text-sm text-brand-400 hover:text-brand-200 transition-colors"
                   >
-                    {label}
+                    {t(`companyLinks.${key}`)}
                   </Link>
                 </li>
               ))}
@@ -105,7 +105,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-xs font-semibold text-white uppercase tracking-[0.15em] mb-4">
-              Contact
+              {t("contact")}
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-brand-400">
